@@ -83,7 +83,14 @@ const Contact = () => {
           </label>
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            style={{
+              width: "20%",
+              margin: "auto",
+              borderRadius: "10px",
+              padding: "4px",
+              backgroundImage:
+                "linear-gradient(to right, #4b9be2, #847ddb, #e847cf)",
+            }}
           >
             Send
             {/* {loading ? "Sending..." : "Send"} */}

@@ -6,7 +6,6 @@ import Services from "./components/Services";
 import Qualities from "./components/Qualities";
 import Contact from "./components/Contact";
 import StarsCanvas from "./components/canvas/Stars";
-import Heroo from "./components/Heroo";
 
 const App = () => {
   return (
@@ -14,7 +13,6 @@ const App = () => {
       <div className="bg-primary relative z-0">
         <div className="bg-hero_pattern bg-cover bg-center bg-no-repeat">
           <Navbar />
-          {/* <Heroo /> */}
           <Hero />
         </div>
         <Services />

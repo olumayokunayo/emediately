@@ -1,3 +1,8 @@
+import excellenceImg from "../assets/excellence.jpg";
+import expertiseImg from "../assets/expertise.jpg";
+import integrityImg from "../assets/integrity.jpg";
+import professionalImg from "../assets/professionalism.jpg";
+
 export const navlinks = [
   {
     id: "about",
@@ -48,18 +53,22 @@ const qualities = [
   {
     title: "Excellence",
     text: "We create solutions that exceed your expectations with a passion for perfection and attention to detail.",
+    image: excellenceImg,
   },
   {
     title: "Professionalism",
     text: "We deliver top-notch service, and handle requests with expertise, ensuring your journey is smooth and hassle-free.",
+    image: professionalImg,
   },
   {
     title: "Expertise",
     text: "Our intimate knowledge of the industry allows us to craft a service uniquely tailored to your use case.",
+    image: expertiseImg,
   },
   {
     title: "Integrity",
     text: "We will never pull the wool over your eyes, In every endeavour, from collaboration to decision-making, we champion transparency, honesty, and sincerity.",
+    image: integrityImg,
   },
 ];
 

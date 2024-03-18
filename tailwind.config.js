@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
       },
       colors: {
         orange: "#fe4f31",
@@ -12,7 +12,7 @@ export default {
         secondary: "#aaa6c3",
       },
       backgroundImage: {
-        hero_pattern: "url('/src/assets/herobg.png')",
+        hero_pattern: "url('/src/assets/embg.jpg')",
       },
     },
   },

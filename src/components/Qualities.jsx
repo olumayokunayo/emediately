@@ -5,7 +5,8 @@ import { qualities } from "../constants";
 import { Tilt } from "react-tilt";
 import { fadeIn, textVariant } from "./utils/motion";
 import { SectionWrapper } from "./helper";
-const ProjectCard = ({ index, title, text }) => {
+
+const ProjectCard = ({ index, title, text, image }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -16,6 +17,13 @@ const ProjectCard = ({ index, title, text }) => {
         }}
         className="bg-[#151030] p-5 rounded-2xl sm:w-[360px] w-full"
       >
+        <div className="relative w-full h-[230px]">
+          <img
+            src={image}
+            alt={title}
+            className="w-full h-full object-cover rounded-2xl"
+          />
+        </div>
         <div className="relative w-full sm:h-[240px] h-[240px]">
           <div className=" m-3 card-img-hover">
             <h1 className={`${styles.sectionSubText} font-bold`}>{title}</h1>
@@ -46,7 +54,7 @@ const Works = () => {
           you towards your goals.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7 m-auto">
+      <div className="mt-20 flex flex-wrap gap-4 justify-center">
         {qualities.map((quality, index) => (
           <ProjectCard key={`quality-${index}`} index={index} {...quality} />
         ))}

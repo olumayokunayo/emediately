@@ -6,7 +6,7 @@ const styles = {
 
   // Hero Section
   heroHeadText:
-    "font-black text-white lg:text-[60px] sm:text-[40px] xs:text-[50px] text-[30px] lg:leading-[88px] mt-2",
+    "font-black text-white lg:text-[50px] sm:text-[40px] xs:text-[50px] text-[30px] lg:leading-[70px] mt-2",
   heroSubText:
     "text-[#dfd9ff] font-medium lg:text-[20px] sm:text-[16px] xs:text-[20px] text-[16px] lg:leading-[40px]",
 
@@ -14,7 +14,7 @@ const styles = {
   sectionHeadText:
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[20px] text-[30px]",
   sectionSubText:
-    "sm:text-[30px] text-[24px] text-secondary uppercase tracking-wider",
+    "sm:text-[20px] text-[24px] text-secondary uppercase tracking-wider",
 };
 
 export { styles };
